@@ -1,0 +1,52 @@
+$violet: hsl(257, 40%, 49%);
+$softMagenta: hsl(300, 69%, 71%);
+$fontHeadings: 'Open Sans', sans-serif;
+$fontBody: 'Poppins', sans-serif;
+
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: $violet;
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .Top {
+        padding-left: 5rem;
+        padding-top: 4rem;
+    }
+
+    .Middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+
+        img {
+            width: 850px;
+            height: 100%;
+            padding-top: 4rem;
+        }
+
+        .Text {
+            padding-left: 3rem;
+            padding-bottom: 5rem;
+
+            h1 {
+                color: white;
+                font-family: $fontHeadings;
+                font-size: 3rem;
+            }
+
+            p {
+                color: white;
+                font-family: $fontBody;
+                font-size: 1.37rem;
+            }
+        }
+    }
+}
